@@ -1,0 +1,8 @@
+/* style-ie7.css
+ * дополнительный файл стилей для ИЕ7
+ * 
+ */
+
+.b-header-menu li {
+	float: left;
+}

@@ -1,0 +1,9 @@
+/* style-ie6.css
+ * дополнительный файл стилей для ИЕ6
+ * 
+ */
+
+.b-header-menu li {
+	float: left;
+}
+

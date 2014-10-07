@@ -1,0 +1,14 @@
+/* style.css
+ * основной файл, собирает все остальные
+ * 
+ */
+ 
+@import url('global/global.css');
+@import url('global/font.css');
+
+@import url('layout/holster.css');
+@import url('layout/blocks.css');
+@import url('layout/content.css');
+
+@import url('modules/chosen.css');
+@import url('my_new.css');/*поправочке*/

@@ -1,0 +1,135 @@
+/* global.css
+ * глобальные стили
+ *
+ */
+
+* { 
+	outline: none; 
+}
+body, html { 
+	height: 100%;
+	width: 100%;
+	margin: 0; 
+	padding: 0;
+	border: none;
+	background-color: #ffffff;
+}
+table, td, th { 
+	margin: 0; padding: 0;
+	border-collapse: collapse;
+	font-size: 100%;
+}
+img { 
+	border: none; 
+	/*margin: 0; */
+	padding: 0; 
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0.4em 0;
+	padding: 0;
+	color: #58585a;
+	font-weight: normal;
+	font-family: "Trebuchet MS", sans-serif;
+}
+h1 {
+	margin-top: 0;
+	margin-bottom: 30px;
+	font-size: 32px;
+}
+h2 {
+	font-size: 28px;
+}
+h3 {
+	font-size: 24px;
+}
+h4 {
+	font-size: 20px;
+}
+h5,h6 {
+	font-size: 16px;
+}
+p {
+	margin: 0.8em 0;
+	padding: 0;
+}
+.g-clean {
+	clear: both;
+	font-size:0;
+  	overflow: hidden;
+}
+.g-nobr {
+	white-space: nowrap;
+}
+.g-menu ul, .g-menu li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.g-half-link {
+	cursor: pointer;
+	text-decoration: none;
+	color: inherit;
+	border-bottom-color: inherit;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+}
+.g-img-left {
+    float: left;
+    margin: 0 20px 0 0;
+}
+.g-img-right {
+    float: right;
+    margin: 0 0 0 20px;
+}
+.g-ico {
+	overflow: hidden;
+	background-image: url('../../img/ico-map.png');
+}
+.g-border-grey {
+	border: 1px solid #b6b6b8;
+}
+.g-border-radius {
+	border-radius: 5px;
+}
+.g-info-num {
+	position: absolute;
+	z-index: 2;
+	min-width: 11px;
+	height: 17px;
+	margin: -3px 0 0 3px;
+	padding: 0 3px;
+	border-radius: 18px;
+	background-color: #3fb6f1;
+	color: #FFF;
+	font-size: 9px;
+	text-align: center;
+	line-height: 19px;
+}
+.g-button {
+	display: inline-block;
+	height: 26px;
+	padding: 0 10px;
+	background: #008fd2 url('../../img/header-menu_bg.png') 0 0 repeat-x;
+	border: 0px;
+	border-radius: 3px;
+	line-height: 26px;
+	font-size: 14px;
+	color: #FFF !important;
+	text-shadow: 1px 1px 0 #0076bf;
+	text-align: center;
+	text-decoration: none !important;
+	cursor: pointer;
+}
+.g-blue {
+	color: #00aeef;
+}
+.g-red {
+	color: #f1592a;
+}
+.g-green {
+	color: #39b54a;
+}
+.g-border-dotted {
+	margin: 15px 0;
+	border-top: 1px dotted #00aeef;
+}

@@ -1,0 +1,20 @@
+/* content.css
+ * Стандартные стили контента сайта (таблицы, изображения)
+ *
+ */
+
+
+.b-infopic {
+    margin-bottom: 35px;
+}
+
+.b-content p {
+    margin: 20px 0;
+}
+.b-content p.indent {
+    margin-left: 20px;
+}
+
+.b-content table .actions {
+	width: 1%;
+}

@@ -1,0 +1,17 @@
+/* font.css
+ * глобальные стили шрифта на всем сайте
+ *
+ */
+
+body {
+	color: #58585a;
+	font: 14px/1.4 Arial, sans-serif;
+}
+a, a:visited { 
+	color: #00aeef;
+	text-decoration: none;
+}
+a:hover, a:active {
+	color: #58585a;
+	text-decoration: underline;
+}

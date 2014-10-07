@@ -1,0 +1,43 @@
+#reg_policy,#error_report
+	{
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:11px;
+	color:#58595B;
+	width:502px;
+	margin: 0px 0px 10px 0px;
+	}
+#error_report
+	{
+	/* margin-top: 8px; */
+	margin-bottom: 10px;
+	display: block;
+	font-size: 13px;
+	color: #F00400;
+	}	
+#reg_policy a
+	{
+	color:#007DC5;
+	text-decoration:none;
+	margin: 0px;
+	}				
+#reg_policy a:hover
+	{
+	text-decoration:underline;
+	}	
+#successful_div
+	{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 18px;
+color: #58595B;
+width: 400px;
+margin-top: 100px;
+margin-bottom: 200px;
+	}
+#successful_div a
+	{
+	color:#007DC5;
+	}
+#successful_div a:hover
+	{
+	color:#8DC63F;
+	}
